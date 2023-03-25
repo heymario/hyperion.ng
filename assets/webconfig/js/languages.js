@@ -13,7 +13,8 @@ function initTrans(lc) {
     });
 }
 
-storedLang = getStorage("langcode");
+//storedLang = getStorage("langcode");
+storedLang = "zh-CN";
 if (storedLang == null || storedLang === "undefined") {
 
   var langLocale = $.i18n().locale.substring(0, 2);
